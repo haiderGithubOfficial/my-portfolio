@@ -596,6 +596,18 @@ video {
   top: 88px;
 }
 
+.top-12{
+  top: 3rem;
+}
+
+.top-11{
+  top: 2.75rem;
+}
+
+.top-\[5\.8rem\]{
+  top: 5.8rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -920,7 +932,7 @@ video {
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
   transition: all ease-in-out 0.5s;
-  /* border: 1px solid orange; */
+  /* border: 1px solid white; */
 }
 
 .placeholder\:text-gray-lighter::-moz-placeholder{

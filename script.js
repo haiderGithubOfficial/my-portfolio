@@ -40,7 +40,7 @@ function validateForm() {
 
         if (name.value.trim() === "") {
             nameError.textContent = "Please enter your name.";
-            nameWarnIcon.classList.toggle("hidden")
+            nameWarnIcon.classList.remove("hidden")
             name.classList.remove("border-green-teal")
             name.classList.add("border-[#FF6F5B]")
             isValid = false;
@@ -52,13 +52,13 @@ function validateForm() {
             email.classList.remove("border-green-teal")
             email.classList.add("border-[#FF6F5B]")
             emailError.textContent = "Please enter your email address.";
-            emailWarnIcon.classList.toggle("hidden")
+            emailWarnIcon.classList.remove("hidden")
 
             isValid = false;
         } else {
             if (!email.value.match(/^\S+@\S+\.\S+$/)) {
                 emailError.textContent = "Please enter a valid email address.";
-                emailWarnIcon.classList.toggle("hidden");
+                emailWarnIcon.classList.remove("hidden");
                 email.classList.remove("border-green-teal");
                 email.classList.add("border-[#FF6F5B]");
                 isValid = false;
@@ -69,7 +69,7 @@ function validateForm() {
 
         if (message.value.trim() === "") {
             messageError.textContent = "Please enter a message.";
-            messageWarnIcon.classList.toggle("hidden");
+            messageWarnIcon.classList.remove("hidden");
             message.classList.remove("border-green-teal");
             message.classList.add("border-[#FF6F5B]");
             isValid = false;
