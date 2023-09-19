@@ -18,18 +18,9 @@ function validateForm() {
         emailError.textContent = "";
         messageError.textContent = "";
 
-        name.classList.remove("border-[#FF6F5B]")
-        email.classList.remove("border-[#FF6F5B]")
-        message.classList.remove("border-[#FF6F5B]")
-
-        name.classList.remove("border-green-teal")
-        email.classList.remove("border-green-teal")
-        message.classList.remove("border-green-teal")
-
-
-        name.classList.remove("border-gray-lighter")
-        email.classList.remove("border-gray-lighter")
-        message.classList.remove("border-gray-lighter")
+        name.classList.remove("border-[#FF6F5B]", "border-green-teal", "border-gray-lighter")
+        email.classList.remove("border-[#FF6F5B]", "border-green-teal", "border-gray-lighter")
+        message.classList.remove("border-[#FF6F5B]", "border-green-teal", "border-gray-lighter")
 
 
         name.classList.add("border-green-teal")
