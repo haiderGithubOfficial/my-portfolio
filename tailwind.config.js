@@ -26,7 +26,7 @@ module.exports = {
       animation: {
         'trans-y': 'trans-y 20s linear infinite',
         'trans-y-short': 'trans-y-short 10s linear infinite',
-        'bounce': 'rotate-y 3s linear 2'
+        'rotate-y': 'rotate-y 3s linear 2'
       },
       colors: {
         "gray-dark": "#151515",
